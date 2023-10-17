@@ -1,0 +1,39 @@
+.header {
+  position: relative;
+  height: 265px;
+  background: #512689;
+
+  &__signOutButton {
+    position: absolute;
+    right: 80px;
+    top: 32px;
+    padding: 8px 16px;
+    background: transparent;
+    font-size: 16px;
+    color: #F8F8F8;
+    border: 1px solid #F8F8F8;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  &__title {
+    color: #FFFFFF;
+    font-size: 64px; 
+  }
+
+  &__descr {
+    width: 846px;
+    text-align: center;
+    p {
+      font-size: 20px;
+      color: #FFFFFF;
+    }
+  }
+}
